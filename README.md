@@ -1,7 +1,9 @@
 <p align="center">
+<img src="https://user-images.githubusercontent.com/729786/83943228-cfd37780-a7d0-11ea-9ffd-d34ee5517fb3.png"/>
 </p>
+
 <p align="center">
-<strong> <a href="#frontend---web">Frontend</a> | <a href="#-backend-">Backend</a> | <a href="#-mobile">Mobile</a></strong>
+<strong> <a href="#frontend---web">Frontend</a> | <a href="#-backend-">Backend</a> | <a href="#mobile">Mobile</a></strong>
 </p>
 <p align="center">
 <img src="https://badgen.net/npm/types/react/" />
@@ -27,24 +29,33 @@ Aplicando o <strong>typeScript</strong> em todo o projeto, destacando as vantage
 	-  Na pasta **web**: `yarn dev` para iniciar a aplicação.
 	-  Na pasta **mobile**: `yarn start` para iniciar a aplicação. Lembrando  que precisa ter o <a href="https://www.youtube.com/watch?v=eSjFDWYkdxM&vl=pt">*Expo* instalado</a>.
 
-<h2>Frontend - /web</h2>
-<p>Com ReactJs utilizamos o serviço de mapa da <a href="https://leafletjs.com/">LeafLet</a>, para o usuário marcar os pontos de coleta e registrar a latitude e longitude.</p>
-<p>Para upload da foto do estabelecimento de coleta utilizamos o component <a href="https://github.com/react-dropzone/react-dropzone">Dropzone</a>, melhorando a usabilidade da aplicação.</p>
 
 <h2> Backend </h2>
 <p>Com Node utilizamos o express junto com o (<i>Query Builder</i>) - <a href="http://knexjs.org/">knexJS</a>.</p>
 <p>
-Com o KnexJS podemos criar as migrations de pontos e items de coleta para o banco de dados.
-Para criar na sua máquina as tabelas da aplicação, rode os seguintes comandos:
-
-`yarn knex migrate:up`
-`yarn knex seed:run`
-
+Com o knexJS podemos criar as migrations de pontos e items de coleta para o banco de dados.
+Assim vamos ter nossas tabelas e dados do banco ao iniciar a aplicação, para isso rode os seguintes comandos:
+<ul>
+<li>`yarn knex migrate:up`</li> 
+<li>`yarn knex seed:run`</li>
+</ul>
 O Banco de dados usado foi o SQLite, pela rapidez do desenvolvimento durante a semana, e por estar rodando na máquina sem precisar de instalações relacionadas ao banco de dados. O que facilita para você rodar.  
 <p>
 
+<h2>Frontend - /web</h2>
+<p>Com ReactJs utilizamos o serviço de mapa da <a href="https://leafletjs.com/">LeafLet</a>, para o usuário marcar os pontos de coleta e registrar a latitude e longitude.</p>
+<p>Para upload da foto do estabelecimento de coleta utilizamos o component <a href="https://github.com/react-dropzone/react-dropzone">Dropzone</a>, melhorando a usabilidade da aplicação.</p>
+<p align="center">
+<img src="https://user-images.githubusercontent.com/729786/83943224-ccd88700-a7d0-11ea-91dd-1b1c811a2dc6.png" width="600"/>
+</p>
+
+
 <h2>Mobile</h2>
 <p>Para o mobile usamos o Expo que traz muitas facilidades para o desenvolvimento no React Native, como por exemplo utilização de fonts customizadas, rodar o app em ambiente de desenvolvimento sem a necessidade de uma IDE para Android e outra para iOS.</p>
+<table><tr><td>
+<img src="https://user-images.githubusercontent.com/729786/83943130-df05f580-a7cf-11ea-97d9-922ef727f7ee.gif" width="300" /></td><td>
+<img src="https://user-images.githubusercontent.com/729786/83943127-d9101480-a7cf-11ea-8781-b75e1d40c3ed.gif" width="300" />
+</td></tr></table>
 
 
 *Projeto criado por Heverson Damasceno, faz parte da NLW1 🚀 <strong>RocketSeat.</strong>*
