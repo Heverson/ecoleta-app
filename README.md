@@ -1,3 +1,4 @@
+
 <p align="center">
 <img src="https://user-images.githubusercontent.com/729786/83943228-cfd37780-a7d0-11ea-9ffd-d34ee5517fb3.png"/>
 </p>
@@ -35,10 +36,10 @@ Aplicando o <strong>typeScript</strong> em todo o projeto, destacando as vantage
 <p>
 Com o knexJS podemos criar as migrations de pontos e items de coleta para o banco de dados.
 Assim vamos ter nossas tabelas e dados do banco ao iniciar a aplicação, para isso rode os seguintes comandos:
-<ul>
-<li>`yarn knex migrate:up`</li> 
-<li>`yarn knex seed:run`</li>
-</ul>
+
+ - `yarn knex migrate:up` 
+ - `yarn knex seed:run`
+
 O Banco de dados usado foi o SQLite, pela rapidez do desenvolvimento durante a semana, e por estar rodando na máquina sem precisar de instalações relacionadas ao banco de dados. O que facilita para você rodar.  
 <p>
 
