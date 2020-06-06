@@ -32,7 +32,7 @@ Aplicando o <strong>typeScript</strong> em todo o projeto, destacando as vantage
 
 
 <h2> Backend </h2>
-<p>Com Node utilizamos o express junto com o (<i>Query Builder</i>) - <a href="http://knexjs.org/">knexJS</a>.</p>
+<p>Para o backend em NodeJS utilizamos o framework ExpressJS junto com o (<i>Query Builder</i>) - <a href="http://knexjs.org/">knexJS</a>.</p>
 <p>
 Com o knexJS podemos criar as migrations de pontos e items de coleta para o banco de dados.
 Assim vamos ter nossas tabelas e dados do banco ao iniciar a aplicação, para isso rode os seguintes comandos:
