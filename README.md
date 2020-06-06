@@ -52,7 +52,7 @@ O Banco de dados usado foi o SQLite, pela rapidez do desenvolvimento durante a s
 
 
 <h2>Mobile</h2>
-<p>Para o mobile usamos o Expo que traz muitas facilidades para o desenvolvimento no React Native, como por exemplo utilização de fonts customizadas, rodar o app em ambiente de desenvolvimento sem a necessidade de uma IDE para Android e outra para iOS.</p>
+<p>Para o mobile usamos o Expo que traz muitas facilidades para o desenvolvimento no React Native, como por exemplo utilização de fontes customizadas usando o Google Fonts, rodar o app em ambiente de desenvolvimento sem a necessidade de uma IDE para Android e outra para iOS.</p>
 <table><tr><td>
 <img src="https://user-images.githubusercontent.com/729786/83943130-df05f580-a7cf-11ea-97d9-922ef727f7ee.gif" width="300" /></td><td>
 <img src="https://user-images.githubusercontent.com/729786/83943127-d9101480-a7cf-11ea-8781-b75e1d40c3ed.gif" width="300" />
