@@ -22,7 +22,7 @@ Aplicando o <strong>typeScript</strong> em todo o projeto, destacando as vantage
 1.  Abra o terminal.
 2.  Faça um clone desse repositório rodando:  
     `git clone https://github.com/Heverson/ecolab-app.git`;
-3.  Entre em cada pasta pelo terminal;
+3.  Entre em cada pasta (/web, /backend, /mobile) pelo terminal;
 4.  Em cada pasta rode o comando `yarn`  para instalar as dependências do projeto;
 5.  Após isso poderá rodar:
 	-  Na pasta **backend**: `yarn start` para iniciar a aplicação. Lembrando que você precisa rodar as migrations e a seeds, para ter seus banco de dados preparado para a aplicação.
