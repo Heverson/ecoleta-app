@@ -9,7 +9,14 @@
 <p align="center">
 <img src="https://badgen.net/npm/types/react/" />
 <img src="https://badgen.net/npm/types/tslib" />
+<a href="https://www.linkedin.com/in/heversondamasceno/" rel="nofollow">
+    <img alt="Linkedin - Heverson Damasceno" src="https://camo.githubusercontent.com/5a189abd87746872a77aaa7404a3748ad8585d5c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c696e6b6564696e2d2d2532334638393532443f7374796c653d736f6369616c266c6f676f3d6c696e6b6564696e" data-canonical-src="https://img.shields.io/badge/Linkedin--%23F8952D?style=social&amp;logo=linkedin" style="max-width:100%;">
+  </a>	
+<a href="mailto:heversondamasceno@gmail.com">
+    <img alt="Email - Heverson Damasceno" src="https://camo.githubusercontent.com/0d6b8470c85771ff00c3d4449aac198c05e2e72a/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f456d61696c2d2d2532334638393532443f7374796c653d736f6369616c266c6f676f3d676d61696c" data-canonical-src="https://img.shields.io/badge/Email--%23F8952D?style=social&amp;logo=gmail" style="max-width:100%;">
+  </a>
 </p>
+
 
 <h1>♻️ Ecoleta  - 👨🏻‍🚀 nlw1 </h1>
 
