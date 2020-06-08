@@ -1,2 +1,2 @@
-release: ENV_SILENT=true node knex migrate:latest --force && node knex seed:run --force
+release: ENV_SILENT=true node Knex migrate:latest --force && node Knex seed:run --force
 web: ENV_SILENT=true npm start
