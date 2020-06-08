@@ -1,0 +1,4 @@
+{
+  "postinstall": "cd web && npm install",
+  "build": "cd web && react-scripts build"
+}
