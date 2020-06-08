@@ -1,1 +1,2 @@
+release: ENV_SILENT=true node knex:migrate --force && node knex:seed --force
 web: ts-node/src/config/server.ts
