@@ -1,5 +1,5 @@
-import Knex from 'knex';
-export async function up(knex:Knex){
+import knex from 'knex';
+export async function up(knex:knex){
   return knex.schema.createTable('points', table =>{
     table.increments('id').primary();
     table.string('image').notNullable();
@@ -13,6 +13,6 @@ export async function up(knex:Knex){
   });
 }
 
-export async function down(knex:Knex){
+export async function down(knex:knex){
   return knex.schema.dropTable('points');
 }
