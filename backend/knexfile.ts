@@ -1,4 +1,4 @@
-require('ts-node/register');
+require('ts-node-register');
 const path = require('path');
 require('dotenv/config');
 
