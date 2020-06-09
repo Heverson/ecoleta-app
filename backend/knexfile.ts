@@ -1,3 +1,4 @@
+require('ts-node/register');
 const path = require('path');
 require('dotenv/config');
 
@@ -9,10 +10,12 @@ module.exports = {
     password: process.env.DATABASE_PASSWORD 
   },
   migrations:{
-    directory: path.resolve(__dirname, 'src', 'database', 'migrations')
+    directory: path.resolve(__dirname, 'src', 'database', 'migrations'),
+    extension: 'ts'
   },
   seeds:{
-    directory: path.resolve(__dirname, 'src', 'database', 'seeds')
+    directory: path.resolve(__dirname, 'src', 'database', 'seeds'),
+    extension: 'ts'
   },
   useNullAsDefault: true,
 }
