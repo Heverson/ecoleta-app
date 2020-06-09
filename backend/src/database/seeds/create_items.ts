@@ -1,5 +1,5 @@
-import Knex from 'knex';
-export async function seed(knex: Knex){
+import knex from 'knex';
+export async function seed(knex: knex){
   await knex('items').insert([
     {
       title: 'Lâmpadas',
