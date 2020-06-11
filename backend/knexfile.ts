@@ -11,12 +11,12 @@ module.exports = {
   migrations:{
     directory: path.resolve(__dirname, 'src', 'database', 'migrations'),
     loadExtensions: ['.ts'],
-    extension: 'js'
+    extension: 'ts'
   },
   seeds:{
     directory: path.resolve(__dirname, 'src', 'database', 'seeds'),
     loadExtensions: ['.ts'],
-    extension: 'js'
+    extension: 'ts'
   },
   useNullAsDefault: true,
 }
