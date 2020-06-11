@@ -1,4 +1,3 @@
-require('ts-node/register');
 const path = require('path');
 require('dotenv/config');
 
@@ -11,11 +10,11 @@ module.exports = {
   },
   migrations:{
     directory: path.resolve(__dirname, 'src', 'database', 'migrations'),
-    extension: 'ts'
+    extension: 'js'
   },
   seeds:{
     directory: path.resolve(__dirname, 'src', 'database', 'seeds'),
-    extension: 'ts'
+    extension: 'js'
   },
   useNullAsDefault: true,
 }
